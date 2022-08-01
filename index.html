@@ -1,0 +1,49 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Time Drawing</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200&display=swap" rel="stylesheet">
+
+</head>
+
+<body style="background-color: rgb(241, 242, 251);">
+    <center>
+        <div class="top">
+            <p>Real Time drawing which changes height, width and position of a square</p>
+            <p>NOTE - Get your left and right wrist closer
+                to reduce the size of the square and to increase the size of
+                the square keep your left and right wrist far from each other.
+                Move your nose to move the square</p>
+            <p>Width and Height: </p><span id="number"></span>
+        </div>
+
+        <!--     
+      <div id="camera">
+       
+        </div>
+        <div id="small_output">
+    
+        </div> -->
+
+        <footer id="footer">
+            Made By Shubha
+        </footer>
+    </center>
+</body>
+<script src="main.js"></script>
+
+</html>

@@ -1,0 +1,49 @@
+.top{
+    background-color: #9eb5cd;
+    font-family: 'Assistant', sans-serif;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.745); 
+    position: relative;
+    top: 10px;
+    font-size: 24px;
+    
+}
+
+
+
+#camera{
+    width: 711px;
+    height: 596px;
+    float: left;
+    /* background-color: rgb(27, 0, 13); */
+border: 1px solid black;
+    margin-top: 20px;
+}
+
+#small_output{
+    width: 711px;
+    height: 596px;
+   
+    border: 1px solid blue;
+    /* background-color: hotpink; */
+    float: right;
+
+    margin-top: 20px;
+    
+}
+#footer{
+    position: fixed;
+     bottom: 0; 
+    background-color: rgb(234, 222, 228);
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow :5px 5px 5px grey;
+}
+
